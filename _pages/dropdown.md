@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: More
 nav: true
 dropdown: true
 children: 
@@ -9,4 +9,5 @@ children:
     - title: divider
     - title: projects
       permalink: /projects/
+order: 4
 ---
