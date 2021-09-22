@@ -10,7 +10,10 @@
       {% endif %}
         <div class="card-img-overlay">
         <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+	<!-- <p class="card-text">{{ project.description }}</p> -->
+	{{% if project.thumbnail_credit %}}
+	<p class="card-text">{{ project.thumbnail_credit }}</p>
+	{{% endif %}}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
           <div class="github-icon">

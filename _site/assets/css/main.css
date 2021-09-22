@@ -166,7 +166,7 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects .card .card-title { text-transform: none; text-align: center; position: relative; color: #F4C430; transform: translate(0, 50%); }
 
-.projects .card .card-text { positon: relative; text-align: center; transform: translate(0, 800%); }
+.projects .card .card-text { font-size: 10px; positon: relative; text-align: center; transform: translate(0, 1500%); }
 
 .projects .card-item { width: auto; margin-bottom: 10px; }
 
