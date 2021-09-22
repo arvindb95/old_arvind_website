@@ -1,17 +1,19 @@
 /*******************************************************************************
- * Themes
+ * Themes ***** (Modified by Arvind to new colors)
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$outer-space};
+  --global-header-bg-color: #{$ebony-clay};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  --global-text-color: #{$hit-grey};
+  --global-texthead-color: #{$saffron};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-theme-color: #{$pacific-blue};
+  --global-hover-color: #{$white-color};
+  --global-footer-bg-color: #{$ebony-clay};
+  --global-footer-text-color: #{$white-color};
+  --global-footer-link-color: #{$pacific-blue};
   --global-distill-app-color: #{$grey-color};
 
   .fa-sun {

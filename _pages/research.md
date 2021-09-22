@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: A brief summary of my research. Feel free to click on the thumbnails below to read more...
 nav: true
 display_categories: [work, fun]
 horizontal: false

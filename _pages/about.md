@@ -25,3 +25,4 @@ You can read more about my research projects in [Research](/research).
 
 I worked on localising transients using the Cadmium Zinc Telluride Imager on board AstroSat for my [Masters Thesis](/3_project).
 
+My contact information is at the bottom of this page.

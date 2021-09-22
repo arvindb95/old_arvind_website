@@ -4,12 +4,19 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+h1, h2, span{
+  color: var(--global-texthead-color); 	
+  font-weight: 400;	
+}	
+
+p, h3, h4, h5, h6, em, div, strong {
   color: var(--global-text-color);
+  font-weight: 400;
 }
 
 a, table.table a {
   color: var(--global-theme-color);
+  font-weight: 400;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -59,8 +66,10 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
+      text-align: center;	
       display: inline-block;
       margin: 0;
+      color: var(--global-texthead-color)
     }
   }
 }
@@ -77,8 +86,9 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  color: var(--global-theme-color);
   a {
-    color: inherit;
+    color: var(--global-texthead-color);
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -91,37 +101,44 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid $grey-color-light;
-  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-header-bg-color);
+  background-color: var(--global-header-bg-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-texthead-color);
   }
   a:hover {
     color: var(--global-hover-color);
   }
 }
 .dropdown-item {
-  color: var(--global-text-color);
+  text-weight: 400;
+  color: var(--global-texthead-color);
     &:hover {
       color: var(--global-hover-color);
       background-color: var(--global-bg-color);
     }
 }
+.dropdown-divider{
+  border-color : var(--global-header-bg-color);
+}
 .navbar.navbar-light {
   a {
     &:hover {
-      text-decoration: none;
+      text-decoration: none;  
     }
   }
-  .navbar-brand {
-    color: var(--global-text-color);
+  .navbar-brand {  
+    color: var(--global-texthead-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-texthead-color);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -129,7 +146,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       &:hover {
         color: var(--global-hover-color);
       }
@@ -140,7 +157,7 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-texthead-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
@@ -157,7 +174,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-header-bg-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -196,7 +213,7 @@ blockquote {
 }
 
 .news table th {
-  color: var(--global-text-color);
+  color: var(--global-texthead-color);
 }
 
 // Social (bottom)
@@ -207,18 +224,19 @@ blockquote {
     font-size: 4rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-texthead-color);
         -webkit-transition: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }
   }
   .contact-note {
     font-size: 0.8rem;
+    color : var(--global-texthead-color);
   }
 }
 
@@ -227,6 +245,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -242,6 +261,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
+  text-align: center;	
   border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -323,18 +343,39 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-hover-color);
       }
     }
   }
 
   .card {
+    overflow: hidden;	  
+    border-radius: 50%;
+    background-color: $ebony-clay;    
+    border: 2px solid var(--global-texthead-color);
+    &:hover {
+        border: 2px solid var(--global-hover-color);
+      }
     img {
+      height: auto;	     
       width: 100%;
+      position: relative;
+      vertical-align: middle;
+      margin-left: auto;
+      margin-right: auto;
     }
     .card-title {
-      color: $black-color;
+      text-transform: none;	     
+      text-align: center;
+      position: relative;
+      color: $saffron;
+      transform: translate(0, 50%);
     }
+    .card-text { 
+      positon: relative;	    
+      text-align: center;
+      transform: translate(0, 800%);
+    }	    
   }
 
   .card-item {
@@ -348,7 +389,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 250px;
+    width: 32%;
     margin-bottom: 10px;
   }
 
@@ -368,7 +409,7 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
   h1 {
-    color: var(--global-theme-color);
+    color: var(--global-texthead-color);
     font-size: 2rem;
     text-align: center;
     margin-top: 1em;
@@ -381,8 +422,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
+    color: $saffron;
+    border-top: 1px solid var(--global-header-bg-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -399,12 +440,13 @@ footer.sticky-bottom {
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
+	  color: var(--global-texthead-color);	
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: var(--global-header-bg-color);
           padding-left: 1rem;
           padding-right: 1rem;
           a {
-            color: white;
+            color: var(--global-texthead-color);
             &:hover {
               text-decoration: none;
             }
@@ -417,6 +459,7 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+	color: var(--global-texthead-color);
       }
       .author {
         a {
@@ -429,11 +472,12 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+	  color : var(--global-theme-color);	
         }
       }
       .links {
         a.btn {
-          color: var(--global-text-color);
+          color: var(--global-texthead-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
@@ -516,4 +560,32 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+
+/* Customize website's scrollbar to look smooth and with no buttons
+Not supported in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {
+    background-color: var(--global-header-bg-color);
+    width: 12px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color: var(--global-header-bg-color);
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: var(--global-texthead-color);
+    border-radius: 6px;
+    border: 3px solid var(--global-header-bg-color);
+    width: 10px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display:none;
 }

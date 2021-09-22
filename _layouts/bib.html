@@ -7,7 +7,7 @@
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+    <abbr class="badge"><a>{{entry.abbr}}</a></abbr>
     {% endif %}
   {% endif %}
   </div>
@@ -75,6 +75,9 @@
       {% endif %}
       {% if entry.year %}
         {{entry.year}}
+      {% endif %}
+      {% if entry.adsurl %}
+        <a href="{{entry.adsurl}}"><i class="ai ai-ads" style="font-size: 1.5em;"></i></a>
       {% endif %}
       </div>
     {% endif %}

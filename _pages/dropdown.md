@@ -4,10 +4,10 @@ title: More
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Hobbies
+      permalink: /hobbies/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: CV
+      permalink: /assets/pdf/example_pdf.pdf
 order: 4
 ---
