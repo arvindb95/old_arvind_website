@@ -72,6 +72,10 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .dropdown-divider { border-color: var(--global-header-bg-color); }
 
+.navbar.navbar-light a span { color: var(--global-texthead-color); }
+
+.navbar.navbar-light a span:hover { color: var(--global-hover-color); }
+
 .navbar.navbar-light a:hover { text-decoration: none; }
 
 .navbar.navbar-light .navbar-brand { color: var(--global-texthead-color); }
@@ -92,7 +96,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .navbar.navbar-light .navbar-brand.social a:hover i::before { color: var(--global-theme-color); }
 
-.navbar-toggler .icon-bar { display: block; width: 22px; height: 2px; background-color: var(--global-header-bg-color); border-radius: 1px; margin-bottom: 4px; transition: all 0.2s; }
+.navbar-toggler .icon-bar { display: block; width: 22px; height: 2px; background-color: var(--global-texthead-color); border-radius: 1px; margin-bottom: 4px; transition: all 0.2s; }
 
 .navbar-toggler .top-bar { transform: rotate(45deg); transform-origin: 10% 10%; }
 
@@ -160,13 +164,13 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects .card { overflow: hidden; border-radius: 50%; background-color: #212D33; border: 2px solid var(--global-texthead-color); }
 
-.projects .card:hover { border: 2px solid var(--global-hover-color); }
+.projects .card:hover { border: 3px solid var(--global-texthead-color); }
 
 .projects .card img { height: auto; width: 100%; position: relative; vertical-align: middle; margin-left: auto; margin-right: auto; }
 
-.projects .card .card-title { text-transform: none; text-align: center; position: relative; color: #F4C430; transform: translate(0, 50%); }
+.projects .card .card-title { font-size: 2vw; text-transform: none; text-align: center; position: relative; color: var(--global-texthead-color); transform: translate(0, 1.5vw); }
 
-.projects .card .card-text { font-size: 10px; positon: relative; text-align: center; transform: translate(0, 1500%); }
+.projects .card .card-text { font-size: 0.7vw; positon: relative; text-align: center; color: var(--global-texthead-color); transform: translate(0, 0.5vw); }
 
 .projects .card-item { width: auto; margin-bottom: 10px; }
 

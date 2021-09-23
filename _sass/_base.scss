@@ -127,6 +127,13 @@ blockquote {
 }
 .navbar.navbar-light {
   a {
+    span {
+      color: var(--global-texthead-color);
+      &:hover {
+	 color: var(--global-hover-color);     
+      }
+    }
+        
     &:hover {
       text-decoration: none;  
     }
@@ -174,14 +181,14 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-header-bg-color);
+    background-color: var(--global-texthead-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
   }
   .top-bar {
     transform: rotate(45deg);
-    transform-origin: 10% 10%;
+    transform-origin: 10% 10%; 
   }
   .middle-bar {
     opacity: 0;
@@ -354,7 +361,7 @@ footer.sticky-bottom {
     background-color: $ebony-clay;    
     border: 2px solid var(--global-texthead-color);
     &:hover {
-        border: 2px solid var(--global-hover-color);
+        border: 3px solid var(--global-texthead-color);
       }
     img {
       height: auto;	     
@@ -365,17 +372,19 @@ footer.sticky-bottom {
       margin-right: auto;
     }
     .card-title {
+      font-size: 2vw;	    
       text-transform: none;	     
       text-align: center;
       position: relative;
-      color: $saffron;
-      transform: translate(0, 50%);
+      color: var(--global-texthead-color);
+      transform: translate(0, 1.5vw);
     }
     .card-text {
-      font-size: 10px;	    
+      font-size: 0.7vw;	    
       positon: relative;	    
       text-align: center;
-      transform: translate(0, 1500%);
+      color: var(--global-texthead-color);
+      transform: translate(0, 0.5vw);
     }	    
   }
 
