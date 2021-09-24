@@ -64,7 +64,7 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    //font-family: monospace;
     p {
       text-align: center;	
       display: inline-block;
@@ -90,7 +90,7 @@ blockquote {
   a {
     color: var(--global-texthead-color);
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-hover-color);
       text-decoration: none;
     }
   }
@@ -352,6 +352,9 @@ footer.sticky-bottom {
       .card-title {
         color: var(--global-hover-color);
       }
+      .card-text {
+	color: var(--global-hover-color)      
+      }
     }
   }
 
@@ -361,7 +364,8 @@ footer.sticky-bottom {
     background-color: $ebony-clay;    
     border: 2px solid var(--global-texthead-color);
     &:hover {
-        border: 3px solid var(--global-texthead-color);
+        //border: 3px solid var(--global-texthead-color);
+	box-shadow: 0 10px 10px var(--global-code-bg-color);
       }
     img {
       height: auto;	     
@@ -380,11 +384,9 @@ footer.sticky-bottom {
       transform: translate(0, 1.5vw);
     }
     .card-text {
-      font-size: 0.7vw;	    
-      positon: relative;	    
+      font-size: 0.7vw;	    	    
       text-align: center;
       color: var(--global-texthead-color);
-      transform: translate(0, 0.5vw);
     }	    
   }
 
@@ -485,6 +487,21 @@ footer.sticky-bottom {
 	  color : var(--global-theme-color);	
         }
       }
+      .periodical{
+	color: var(--global-text-color);    
+        > em {
+	  color: var(--global-text-color);		
+	}
+        a {
+	  i {
+	    color: var(--global-theme-color);
+            &:hover {
+		color: var(--global-hover-color);    
+	    }	    
+	  }	  
+	}
+
+      }
       .links {
         a.btn {
           color: var(--global-texthead-color);
@@ -494,8 +511,8 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
           }
         }
       }

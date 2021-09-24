@@ -56,3 +56,12 @@ order: 1
   {% endif %}
 
 </div>
+
+<div class="row justify-content-md-center" style="margin-top: 50px;">
+   <img class="img-fluid" width="80%" src="{{ '/assets/img/paper_wordcloud.svg' | relative_url }}" alt="" title="Word cloud"/>
+</div>
+<div class="caption">
+    A word cloud from my recent papers generated using the python package 
+   <a href="https://github.com/amueller/word_cloud" style="font-family: monospace; background-color: #171F24; border-radius: 3px; padding: 3px 3px;">wordcloud</a>
+</div>
+

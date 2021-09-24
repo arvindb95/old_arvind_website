@@ -1,6 +1,6 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes ***** (Modified by Arvind to new colors) */
-:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #A5B0B4; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #00ABC2; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: #171f24; --global-text-color: #A5B0B4; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #00ABC2; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
 
 :root .fa-sun { display: none; }
 
@@ -46,7 +46,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .profile { margin-left: 1rem; width: 100%; }
 
-.profile .address { margin-bottom: 5px; margin-top: 5px; font-family: monospace; }
+.profile .address { margin-bottom: 5px; margin-top: 5px; }
 
 .profile .address p { text-align: center; display: inline-block; margin: 0; color: var(--global-texthead-color); }
 
@@ -56,7 +56,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .post-description a { color: var(--global-texthead-color); }
 
-.post-description a:hover { color: var(--global-theme-color); text-decoration: none; }
+.post-description a:hover { color: var(--global-hover-color); text-decoration: none; }
 
 .navbar { box-shadow: none; border-bottom: 1px solid var(--global-header-bg-color); background-color: var(--global-header-bg-color); opacity: 0.95; }
 
@@ -162,15 +162,17 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects a:hover .card-title { color: var(--global-hover-color); }
 
+.projects a:hover .card-text { color: var(--global-hover-color); }
+
 .projects .card { overflow: hidden; border-radius: 50%; background-color: #212D33; border: 2px solid var(--global-texthead-color); }
 
-.projects .card:hover { border: 3px solid var(--global-texthead-color); }
+.projects .card:hover { box-shadow: 0 10px 10px var(--global-code-bg-color); }
 
 .projects .card img { height: auto; width: 100%; position: relative; vertical-align: middle; margin-left: auto; margin-right: auto; }
 
 .projects .card .card-title { font-size: 2vw; text-transform: none; text-align: center; position: relative; color: var(--global-texthead-color); transform: translate(0, 1.5vw); }
 
-.projects .card .card-text { font-size: 0.7vw; positon: relative; text-align: center; color: var(--global-texthead-color); transform: translate(0, 0.5vw); }
+.projects .card .card-text { font-size: 0.7vw; text-align: center; color: var(--global-texthead-color); }
 
 .projects .card-item { width: auto; margin-bottom: 10px; }
 
@@ -212,9 +214,17 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; color: var(--global-theme-color); }
 
+.publications ol.bibliography li .periodical { color: var(--global-text-color); }
+
+.publications ol.bibliography li .periodical > em { color: var(--global-text-color); }
+
+.publications ol.bibliography li .periodical a i { color: var(--global-theme-color); }
+
+.publications ol.bibliography li .periodical a i:hover { color: var(--global-hover-color); }
+
 .publications ol.bibliography li .links a.btn { color: var(--global-texthead-color); border: 1px solid var(--global-text-color); padding-left: 1rem; padding-right: 1rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
 
-.publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
+.publications ol.bibliography li .links a.btn:hover { color: var(--global-hover-color); border-color: var(--global-hover-color); }
 
 .publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 

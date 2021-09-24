@@ -8,11 +8,11 @@
       {% if project.img %}
       <img src="{{ project.img | relative_url }}" alt="project thumbnail">
       {% endif %}
-        <div class="card-img-overlay">
+        <div class="card-img-overlay d-flex flex-column">
         <h2 class="card-title">{{ project.title }}</h2>
 	<!-- <p class="card-text">{{ project.description }}</p> -->
 	{{% if project.thumbnail_credit %}}
-	<p class="card-text">{{ project.thumbnail_credit }}</p>
+	<p class="card-text mt-auto">{{ project.thumbnail_credit }}</p>
 	{{% endif %}}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
