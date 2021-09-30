@@ -166,7 +166,7 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects .card { overflow: hidden; border-radius: 50%; background-color: #212D33; border: 2px solid var(--global-texthead-color); }
 
-.projects .card:hover { box-shadow: 0 10px 10px var(--global-code-bg-color); }
+.projects .card:hover { box-shadow: 0 10px 2px var(--global-code-bg-color); }
 
 .projects .card img { height: auto; width: 100%; position: relative; vertical-align: middle; margin-left: auto; margin-right: auto; }
 
@@ -222,7 +222,7 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .publications ol.bibliography li .periodical a i:hover { color: var(--global-hover-color); }
 
-.publications ol.bibliography li .links a.btn { color: var(--global-texthead-color); border: 1px solid var(--global-text-color); padding-left: 1rem; padding-right: 1rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.publications ol.bibliography li .links a.btn { color: var(--global-texthead-color); border: 1px solid var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
 
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-hover-color); border-color: var(--global-hover-color); }
 

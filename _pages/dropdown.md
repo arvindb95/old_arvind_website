@@ -8,6 +8,6 @@ children:
       permalink: /hobbies/
     - title: divider
     - title: CV
-      permalink: /assets/pdf/example_pdf.pdf
+      permalink: /assets/pdf/Arvind_Balasubramanian_CV.pdf
 order: 4
 ---
