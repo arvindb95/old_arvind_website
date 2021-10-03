@@ -349,6 +349,7 @@ footer.sticky-bottom {
     text-decoration: none;
 
     &:hover {
+      transition: all 0.5s ease;	    
       .card-title {
         color: var(--global-hover-color);
       }
@@ -362,11 +363,13 @@ footer.sticky-bottom {
     overflow: hidden;	  
     border-radius: 50%;
     background-color: $ebony-clay;    
-    border: 2px solid var(--global-texthead-color);
-    &:hover {
-        //border: 2px solid var(--global-hover-color);
-	box-shadow: 0 10px 2px var(--global-code-bg-color);
+    &:hover >*:not(.card-img-overlay){
+	box-shadow: 0 10px 20px var(--global-code-bg-color);
+	transition: all 0.5s ease;
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
       }
+      
     img {
       height: auto;	     
       width: 100%;

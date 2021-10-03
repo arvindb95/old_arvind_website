@@ -160,13 +160,15 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects a { text-decoration: none; }
 
+.projects a:hover { transition: all 0.5s ease; }
+
 .projects a:hover .card-title { color: var(--global-hover-color); }
 
 .projects a:hover .card-text { color: var(--global-hover-color); }
 
-.projects .card { overflow: hidden; border-radius: 50%; background-color: #212D33; border: 2px solid var(--global-texthead-color); }
+.projects .card { overflow: hidden; border-radius: 50%; background-color: #212D33; }
 
-.projects .card:hover { box-shadow: 0 10px 2px var(--global-code-bg-color); }
+.projects .card:hover > *:not(.card-img-overlay) { box-shadow: 0 10px 20px var(--global-code-bg-color); transition: all 0.5s ease; filter: blur(3px); -webkit-filter: blur(3px); }
 
 .projects .card img { height: auto; width: 100%; position: relative; vertical-align: middle; margin-left: auto; margin-right: auto; }
 
