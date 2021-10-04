@@ -12,11 +12,11 @@ Gravitational waves, a new way to probe the universe, were first predicted by Al
 
 Since this first discovery, three observing runs (O1, O2, O3) have been completed as of 27 March 2020 17:00 UTC, with many compact object mergers being discovered, most of which are binary black hole mergers.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <img class="img-fluid rounded z-depth-2" style="width: 80%; margin: auto;" src="{{ '/assets/img/gwtc-2plotv1.0-1.png' | relative_url }}" alt="" title="Stellar graveyard"/>
-  </div>
+<div class="row justify-content-md-center" style="margin-top: 50px;">
+   <img class="img-fluid" style="width: 80%; border-radius: 5px" src="{{ '/assets/img/gwtc-2plotv1.0-1.png' | relative_url }}" alt="" title="Stellar graveyard"/>
 </div>
 <div class="caption">
-    All mergers detected by LIGO till the end of O3. Image from: <a href="https://media.ligo.northwestern.edu/gallery/masses-in-the-stellar-graveyard" target="_blank"> media.ligo.northwestern.edu/gallery/masses-in-the-stellar-graveyard </a> 
+   All mergers detected by LIGO till the end of O3. Image from: <a href="https://media.ligo.northwestern.edu/gallery/masses-in-the-stellar-graveyard" target="_blank"> media.ligo.northwestern.edu/gallery/masses-in-the-stellar-graveyard </a>
 </div>
+
+
