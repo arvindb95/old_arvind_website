@@ -42,7 +42,7 @@
               {{author.last}}, {{author.first}}
             {% endif %}
           {% else %}
-	    {% unless forloop.last %} <!-- this is the line -->
+	    {% unless forloop.last %} <!-- --> 
               {% if author_is_self %}
                 <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
@@ -62,7 +62,7 @@
                   and {{author.last}}, {{author.first}}
                 {% endif %}
 	      {% endif %} 
-	    {% endunless %} <!-- this is the line -->
+	    {% endunless %} 
           {% endif %}
         {% endfor %}
       </div>
