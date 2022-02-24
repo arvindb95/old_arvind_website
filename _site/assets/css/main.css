@@ -122,7 +122,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .social .contact-icons a:hover i::before { color: var(--global-hover-color); }
 
-.social .contact-note { margin: auto; width: 26%; font-size: 1.0rem; font-family: 'Martel', serif; color: var(--global-texthead-color); }
+.social .contact-note { margin: auto; font-size: 1.0rem; font-family: 'Martel', serif; color: var(--global-texthead-color); }
 
 footer.fixed-bottom { background-color: var(--global-footer-bg-color); font-size: 0.75rem; text-align: center; }
 

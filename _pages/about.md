@@ -17,11 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a graduate student working with [Dr. Alessandra Corsi](http://www.depts.ttu.edu/phas/People/Faculty/bio_corsi/bio_corsi.php){:target="_blank"} on studying radio emission from
+I am a graduate student working with [Dr. Alessandra Corsi](http://www.depts.ttu.edu/phas/People/Faculty/bio_corsi/bio_corsi.php){:target="_blank"} on studying radio emission from transients like
 - merging compact objects like neutron stars and black holes
 - supernovae and their remnants
 
-You can read more about my research projects in [Research](/research).
+The term "transient" in the astrophysical context is used to refer to sources that change in short timescales - from a few seconds to sometimes a few years, as opposed to the longer timescales that characterize e.g. the steady evolution of stars and galaxies. You can read more about my research projects in the [Research tab](/research).
 
 I worked on localising transients using the Cadmium Zinc Telluride Imager on board AstroSat for my [Masters Thesis](/projects/3_project).
 
