@@ -225,9 +225,9 @@ blockquote {
 
 // Social (bottom)
 
-.social {
+.social {	
   text-align: center;
-  .contact-icons {
+  .contact-icons {	  
     font-size: 4rem;
     a {
       i::before {
@@ -242,7 +242,10 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    margin: auto;
+    width: 26%;    
+    font-size: 1.0rem;
+    font-family: 'Martel', serif;
     color : var(--global-texthead-color);
   }
 }
