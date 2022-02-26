@@ -57,8 +57,8 @@ order: 1
 
 </div>
 
-<div class="row justify-content-md-center" style="margin-top: 50px;">
-   <img class="img-fluid" width="70%" src="{{ '/assets/img/paper_wordcloud.png' | relative_url }}" alt="" title="Word cloud"/>
+<div class="row" style="margin-top: 50px;">
+   <img class="mx-auto d-block" width="70%" src="{{ '/assets/img/paper_wordcloud.png' | relative_url }}" alt="" title="Word cloud"/>
 </div>
 <div class="caption">
     A word cloud from my recent papers generated using the python package 
