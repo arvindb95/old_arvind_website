@@ -6,12 +6,14 @@
 
 h1, h2, span{
   color: var(--global-texthead-color); 	
-  font-weight: 400;	
+  font-family: 'Josefin Sans', sans-serif;  
 }	
 
 p, h3, h4, h5, h6, em, div, strong {
   color: var(--global-text-color);
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
+  font-size: 17px;
 }
 
 a, table.table a {
@@ -117,6 +119,7 @@ blockquote {
 .dropdown-item {
   text-weight: 400;
   color: var(--global-texthead-color);
+  font-family: 'Josefin Sans', sans-serif;
     &:hover {
       color: var(--global-hover-color);
       background-color: var(--global-bg-color);
@@ -129,6 +132,7 @@ blockquote {
   a {
     span {
       color: var(--global-texthead-color);
+      font-family: 'Josefin Sans', sans-serif;
       &:hover {
 	 color: var(--global-hover-color);     
       }
@@ -146,6 +150,7 @@ blockquote {
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-texthead-color);
+    font-family: 'Josefin Sans', sans-serif;
     &:hover {
       color: var(--global-hover-color);
     }

@@ -26,9 +26,9 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 /****************************************************************************** Publications */
 /***************************************************************************** Projects */
 /******************************************************************************* Styles for the base elements of the theme. */
-h1, h2, span { color: var(--global-texthead-color); font-weight: 400; }
+h1, h2, span { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
 
-p, h3, h4, h5, h6, em, div, strong { color: var(--global-text-color); font-weight: 400; }
+p, h3, h4, h5, h6, em, div, strong { color: var(--global-text-color); font-family: 'Josefin Sans', sans-serif; font-weight: 400; font-size: 17px; }
 
 a, table.table a { color: var(--global-theme-color); font-weight: 400; }
 
@@ -66,13 +66,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .navbar .dropdown-menu a:hover { color: var(--global-hover-color); }
 
-.dropdown-item { text-weight: 400; color: var(--global-texthead-color); }
+.dropdown-item { text-weight: 400; color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
 
 .dropdown-item:hover { color: var(--global-hover-color); background-color: var(--global-bg-color); }
 
 .dropdown-divider { border-color: var(--global-header-bg-color); }
 
-.navbar.navbar-light a span { color: var(--global-texthead-color); }
+.navbar.navbar-light a span { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
 
 .navbar.navbar-light a span:hover { color: var(--global-hover-color); }
 
@@ -82,7 +82,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .navbar.navbar-light .navbar-brand:hover { color: var(--global-hover-color); }
 
-.navbar.navbar-light .navbar-nav .nav-item .nav-link { color: var(--global-texthead-color); }
+.navbar.navbar-light .navbar-nav .nav-item .nav-link { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: var(--global-hover-color); }
 
