@@ -4,15 +4,15 @@
 
 // Typography
 
-h1, h2, span{
+h1, h2, h3, h4, h5, h6, span{
   color: var(--global-texthead-color); 	
   font-family: 'Josefin Sans', sans-serif;  
 }	
 
-p, h3, h4, h5, h6, em, div, strong {
+p, em, div, strong {
   color: var(--global-text-color);
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 17px;
 }
 
@@ -65,18 +65,18 @@ blockquote {
 
   .address {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 30px;
     //font-family: monospace;
     p {
       text-align: center;	
-      display: inline-block;
+      display: block;
       margin: 0;
       color: var(--global-texthead-color)
     }
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
   .profile {
     width: 30%;
     .address {
@@ -150,6 +150,7 @@ blockquote {
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-texthead-color);
+    font-weight: bolder;
     font-family: 'Josefin Sans', sans-serif;
     &:hover {
       color: var(--global-hover-color);
@@ -270,7 +271,7 @@ footer.fixed-bottom {
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
-    }
+    }  
   }
 }
 
@@ -279,7 +280,7 @@ footer.sticky-bottom {
   border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 
 
@@ -368,7 +369,7 @@ footer.sticky-bottom {
 
   .card {
     overflow: hidden;	  
-    border-radius: 50%;
+    border-radius: 50%; 
     background-color: $ebony-clay;    
     &:hover >*:not(.card-img-overlay){
 	box-shadow: 0 10px 20px var(--global-code-bg-color);
@@ -411,7 +412,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 32%;
+    width: 32.5%;
     margin-bottom: 10px;
   }
 
@@ -623,7 +624,7 @@ body::-webkit-scrollbar-track {
 
 /* scrollbar itself */
 body::-webkit-scrollbar-thumb {
-    background-color: var(--global-texthead-color);
+    background-color: var(--global-text-color-light);
     border-radius: 6px;
     border: 3px solid var(--global-header-bg-color);
     width: 10px;

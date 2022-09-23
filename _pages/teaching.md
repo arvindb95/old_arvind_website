@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Courses I taught as a Teaching Assistant at Texas Tech University
 nav: true
+icon: fa-chalkboard-teacher
 order: 3
 social: true
 ---

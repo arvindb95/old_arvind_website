@@ -1,6 +1,6 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes ***** (Modified by Arvind to new colors) */
-:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: #171f24; --global-text-color: #A5B0B4; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #00ABC2; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: #171f24; --global-text-color: #ffffff; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #729FCF; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
 
 :root .fa-sun { display: none; }
 
@@ -26,9 +26,9 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 /****************************************************************************** Publications */
 /***************************************************************************** Projects */
 /******************************************************************************* Styles for the base elements of the theme. */
-h1, h2, span { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
+h1, h2, h3, h4, h5, h6, span { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
 
-p, h3, h4, h5, h6, em, div, strong { color: var(--global-text-color); font-family: 'Josefin Sans', sans-serif; font-weight: 400; font-size: 17px; }
+p, em, div, strong { color: var(--global-text-color); font-family: 'Josefin Sans', sans-serif; font-weight: 500; font-size: 17px; }
 
 a, table.table a { color: var(--global-theme-color); font-weight: 400; }
 
@@ -46,11 +46,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .profile { margin-left: 1rem; width: 100%; }
 
-.profile .address { margin-bottom: 5px; margin-top: 5px; }
+.profile .address { margin-bottom: 5px; margin-top: 30px; }
 
-.profile .address p { text-align: center; display: inline-block; margin: 0; color: var(--global-texthead-color); }
+.profile .address p { text-align: center; display: block; margin: 0; color: var(--global-texthead-color); }
 
-@media (min-width: 576px) { .profile { width: 30%; } .profile .address p { display: block; } }
+@media (min-width: 400px) { .profile { width: 30%; } .profile .address p { display: block; } }
 
 .post-description { margin-bottom: 2rem; font-size: 0.875rem; color: var(--global-theme-color); }
 
@@ -82,7 +82,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .navbar.navbar-light .navbar-brand:hover { color: var(--global-hover-color); }
 
-.navbar.navbar-light .navbar-nav .nav-item .nav-link { color: var(--global-texthead-color); font-family: 'Josefin Sans', sans-serif; }
+.navbar.navbar-light .navbar-nav .nav-item .nav-link { color: var(--global-texthead-color); font-weight: bolder; font-family: 'Josefin Sans', sans-serif; }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: var(--global-hover-color); }
 
@@ -132,7 +132,7 @@ footer.fixed-bottom a { color: var(--global-footer-link-color); }
 
 footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
 
-footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
+footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.75rem; }
 
 .header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 
@@ -180,7 +180,7 @@ footer.sticky-bottom { text-align: center; border-top: 1px solid #e8e8e8; paddin
 
 .projects .card-item .row { display: flex; }
 
-.projects .grid-item { width: 32%; margin-bottom: 10px; }
+.projects .grid-item { width: 32.5%; margin-bottom: 10px; }
 
 @media (max-width: 500px) { .projects .grid-item { width: 50%; margin-left: 25%; } }
 
@@ -261,7 +261,7 @@ body::-webkit-scrollbar { background-color: var(--global-header-bg-color); width
 body::-webkit-scrollbar-track { background-color: var(--global-header-bg-color); }
 
 /* scrollbar itself */
-body::-webkit-scrollbar-thumb { background-color: var(--global-texthead-color); border-radius: 6px; border: 3px solid var(--global-header-bg-color); width: 10px; }
+body::-webkit-scrollbar-thumb { background-color: var(--global-text-color-light); border-radius: 6px; border: 3px solid var(--global-header-bg-color); width: 10px; }
 
 /* set button(top and bottom of the scrollbar) */
 body::-webkit-scrollbar-button { display: none; }

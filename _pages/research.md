@@ -6,6 +6,7 @@ description: A brief summary of my research. Feel free to click on the thumbnail
 nav: true
 display_categories: [work, fun]
 horizontal: false
+icon: fa-satellite-dish
 order: 1
 ---
 <div class="projects">

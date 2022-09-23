@@ -3,6 +3,7 @@ layout: page
 title: Masters Thesis
 description: Transient localization with CZTI
 img: /assets/img/Astrosat.png
+thumbnail_credit: "Transient localization with CZTI"
 importance: 3
 category: work
 ---
