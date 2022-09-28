@@ -24,4 +24,4 @@ For my PhD, I worked at [Department of Physics, Texas Tech University](https://w
 
 I worked on localising transients using the Cadmium Zinc Telluride Imager on board AstroSat for my [Masters Thesis](/projects/3_project).
 
-You can read more about my research projects in the [Research tab](/research). My contact information is at the bottom of this page.
+You can read more about my research projects in the [Research tab](/research). My contact information can be accessed from the icons at the bottom of the page.

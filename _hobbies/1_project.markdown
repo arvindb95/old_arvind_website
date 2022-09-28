@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Current Research
+title: Sanskrit
 description: Will update
-thumbnail_credit: "Image credit : NASA/GSFC/CI Lab"
-img: /assets/img/kilonova.png
+thumbnail_credit: "Radio exploration of the transient sky"
+img: /assets/img/GW170817_radio_image.png 
 importance: 1
 category: work
 ---

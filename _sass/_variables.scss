@@ -38,6 +38,8 @@ $saffron:             #F4C430 !default;
 $pacific-blue:        #00ABC2 !default;
 $danube:              #729FCF !default;
 
+$dark-saffron:        darken($saffron, 17%);
+
 // Theme colors
 
 $code-bg-color-light:     darken($ebony-clay, 5%) ;//rgba($purple-color, 0.05);

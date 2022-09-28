@@ -1,18 +1,58 @@
 ---
 layout: page
-permalink: /hobbies/
 title: Hobbies
-description: Things I like to do to relax
+permalink: /hobbies/
+description: Things I like to do to relax 
 nav: false
+display_categories: [fun]
+horizontal: false
 ---
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <h2 class="category">{{category}}</h2>
+      {% assign categorized_projects = site.hobbies | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.html %}
+          {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for project in sorted_projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
-Coming soon!
+  {% else %}
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.hobbies | sort: "importance" %}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for hobby in sorted_projects %}
+          {% include hobbies.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-<div class="row justify-content-md-center" style="margin-top: 50px;">
-   <img class="img-fluid" style="max-width:20%;" src="{{ '/assets/img/wip.png' | relative_url }}" alt="" title="WIP"/>
+  {% endif %}
+
 </div>
-<div class="caption">
-   <a href="https://www.flaticon.com/free-icons/work-in-progress" title="work in progress icons">Work in progress icons created by Freepik - Flaticon</a>
-</div>
-
 

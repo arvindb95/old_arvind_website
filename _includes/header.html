@@ -59,7 +59,7 @@
               {% if child.title == 'divider' %}
                 <div class="dropdown-divider"></div>
 	      {% elsif child.title == 'CV' %}
-                <a class="dropdown-item" href="{{ child.permalink | relative_url }}" target="_blank">{{ child.title }}</a>
+                <a class="dropdown-item" href="{{ child.permalink | relative_url }}" target="_blank"><i class="fas fa-file-pdf"></i> {{ child.title }}</a>
               {% else %}
                 <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
               {% endif %}

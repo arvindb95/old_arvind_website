@@ -111,6 +111,8 @@ blockquote {
   background-color: var(--global-bg-color);
   a:not(.active) {
     color: var(--global-texthead-color);
+    font-weight: bolder;
+    font-size: 17px;
   }
   a:hover {
     color: var(--global-hover-color);
@@ -407,6 +409,7 @@ footer.sticky-bottom {
 
     .row {
       display: flex;
+
      
     }
   }

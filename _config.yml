@@ -101,6 +101,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  hobbies:
+    output: true
+    permalink: /hobbies/:path/
 
 news_limit: 5
 
