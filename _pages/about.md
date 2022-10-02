@@ -18,9 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am currently a Visiting Fellow at the [Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Mumbai](https://www.tifr.res.in/~daa/index.html){:target="_blank"} pursuing research on Fast Radio Bursts in [Dr. Shriharsh Tendulkar](https://web.tifr.res.in/~shriharsh.tendulkar/){:target="_blank"}'s group. 
 
-For my PhD, I worked at [Department of Physics, Texas Tech University](https://www.depts.ttu.edu/phas/){:target="_blank"} with [Dr. Alessandra Corsi](http://www.depts.ttu.edu/phas/People/Faculty/bio_corsi/bio_corsi.php){:target="_blank"} on studying radio emission from transients like
-- merging compact objects like neutron stars and black holes
-- supernovae and their remnants
+For my PhD, I worked at [Department of Physics, Texas Tech University](https://www.depts.ttu.edu/phas/){:target="_blank"} with [Dr. Alessandra Corsi](http://www.depts.ttu.edu/phas/People/Faculty/bio_corsi/bio_corsi.php){:target="_blank"} on studying radio emission from transients like merging compact objects like neutron stars and black holes, and supernova remnants.
 
 I worked on localising transients using the Cadmium Zinc Telluride Imager on board AstroSat for my [Masters Thesis](/projects/3_project).
 
