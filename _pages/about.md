@@ -6,7 +6,7 @@ description: <a href="https://www.tifr.res.in/~daa/" target="_blank">Department 
 
 profile:
   align: right
-  image: Arvind_profile_pic_2.jpg
+  image: Best_profile_pic.jpeg
   address: >
     <p><i class="fas fa-map-marker-alt"></i> CM33B</p>
     <p>Dept. of Astronomy and Astrophysics</p>
