@@ -2,10 +2,12 @@
 layout: page
 title: Hobbies
 permalink: /hobbies/
+icon: fa-star 
 description: Things I like to do to relax 
-nav: false
+nav: true
 display_categories: [fun]
 horizontal: false
+order : 3
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
