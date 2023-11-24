@@ -1,11 +1,15 @@
 ---
 layout: page
-title: PhD Thesis
-description: Radio exploration of the transient sky - Binary mergers and peculiar core-collapse supernovae
-thumbnail_credit: "Radio exploration of the transient sky"
-img: /assets/img/GW170817_radio_image.png
+title: Carnatic Music
+description: Indian classical music form
+img: /assets/img/violin.jpg
 importance: 2
-category: work
+category: fun
 ---
 
-This is a test
+<div class="row justify-content-md-center" style="margin-top: 50px;">
+   <img class="img-fluid mx-auto" style="max-width:20%;" src="{{ '/assets/img/wip.png' | relative_url }}" alt="" title="WIP"/>
+</div>
+<div class="caption">
+   <a href="https://www.flaticon.com/free-icons/work-in-progress" title="work in progress icons">Work in progress icons created by Freepik - Flaticon</a>
+</div>

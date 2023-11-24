@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Sanskrit
-description: Will update
-thumbnail_credit: "Radio exploration of the transient sky"
-img: /assets/img/GW170817_radio_image.png 
+description: The language of the devās
+img: /assets/img/sanskrit.jpg 
 importance: 1
-category: work
+category: fun
 ---
 This is my most favourite language!
 <div class="row justify-content-md-center" style="margin-top: 50px;">
