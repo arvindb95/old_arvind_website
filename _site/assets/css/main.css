@@ -1,6 +1,6 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes ***** (Modified by Arvind to new colors) */
-:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: #171f24; --global-text-color: #ffffff; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #A5B0B4; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #28353C; --global-header-bg-color: #212D33; --global-code-bg-color: #171f24; --global-text-color: #ffffff; --global-texthead-color: #F4C430; --global-text-color-light: #828282; --global-theme-color: #2698BA; --global-hover-color: #ffffff; --global-footer-bg-color: #212D33; --global-footer-text-color: #ffffff; --global-footer-link-color: #00ABC2; --global-distill-app-color: #828282; }
 
 :root .fa-sun { display: none; }
 
