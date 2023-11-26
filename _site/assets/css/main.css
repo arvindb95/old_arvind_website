@@ -52,7 +52,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 @media (min-width: 400px) { .profile { width: 30%; } .profile .address p { display: block; } }
 
-.post-description { margin-bottom: 2rem; font-size: 0.875rem; color: var(--global-theme-color); }
+.post-description { margin-bottom: 2rem; color: var(--global-theme-color); }
 
 .post-description a { color: var(--global-texthead-color); }
 

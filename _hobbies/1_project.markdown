@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sanskrit
-description: The language of the devās
+description: The language of the <em style="color:#2698BA;"> devās </em>
 img: /assets/img/sanskrit.jpg 
 importance: 1
 category: fun
