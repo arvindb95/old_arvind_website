@@ -1,1 +1,1 @@
-My personal website! Visit [arvindb95.github.io](https://arvindb95.github.io/)
+My old personal website. I am no longer using Jekyll to make my webpage.
